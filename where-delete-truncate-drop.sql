@@ -1,6 +1,5 @@
 DROP TABLE employees;
 DROP TABLE employees_backup;
-
 CREATE TABLE employees (
 
 employee_id SERIAL PRIMARY KEY,
