@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS STUDENTS (
 );
 
 -- Creating the COURSES table to store course details
+
 CREATE TABLE IF NOT EXISTS COURSES (
     CourseCode VARCHAR(50) UNIQUE NOT NULL PRIMARY KEY, -- Unique course code (e.g., CS232)
     CourseTitle VARCHAR(50) UNIQUE NOT NULL,           -- Course title (e.g., Database Management Systems)
