@@ -4,6 +4,7 @@ CREATE TABLE student (
     GPA NUMERIC(3,2) CHECK (GPA BETWEEN 0.00 AND 4.00)
 );
 
+
 INSERT INTO student (id, name, GPA) VALUES (1, 'Alice Johnson', 3.75);
 INSERT INTO student (id, name, GPA) VALUES (2, 'Bob Smith', 3.20);
 INSERT INTO student (id, name, GPA) VALUES (3, 'Charlie Brown', 2.85);
