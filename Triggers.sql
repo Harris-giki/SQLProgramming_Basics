@@ -29,3 +29,7 @@ BEFORE UPDATE
 ON employees
 FOR EACH ROW
 EXECUTE PROCEDURE log_last_name_changes();
+
+
+--How to Drop a Trigger--
+Drop last_name_changes ON employees
